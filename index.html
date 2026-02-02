@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposal for Central Florida Flight Training</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            sky: {
+              950: '#0c1929',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .gradient-text {
+      background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card-hover {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+  
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-sky-950 via-slate-900 to-slate-800 text-white min-h-[80vh] flex items-center">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="max-w-3xl">
+        <p class="text-sky-400 font-medium mb-4 tracking-wide uppercase text-sm">Business Proposal</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          Grow Your Flight School with a 
+          <span class="gradient-text">Modern Digital Presence</span>
+        </h1>
+        <p class="text-xl text-slate-300 mb-8 leading-relaxed">
+          A complete website and marketing transformation for Central Florida Flight Training — 
+          in exchange for flight training credit. Zero cash investment required.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#solutions" class="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-8 py-4 rounded-lg text-center transition-colors">
+            See What You'll Get
+          </a>
+          <a href="proposal.html" class="border border-slate-500 hover:border-slate-400 text-slate-300 hover:text-white font-semibold px-8 py-4 rounded-lg text-center transition-colors">
+            View Full Proposal
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Problem Section -->
+  <section class="py-20 bg-white" id="problem">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-red-500 font-semibold mb-2 uppercase tracking-wide text-sm">The Problem</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Your Website Is Costing You Students</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Online Booking</h3>
+          <p class="text-slate-600">Potential students have to call or email to book a discovery flight. Most won't bother — they'll go to a competitor with instant scheduling.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Lead Capture</h3>
+          <p class="text-slate-600">Visitors leave your site with no way to follow up. Every lost lead is a potential $12,000+ student walking away.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">Invisible on Google</h3>
+          <p class="text-slate-600">People searching "flight training Tampa" or "learn to fly Zephyrhills" aren't finding you. Your competitors are capturing that traffic.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">WordPress.com Limitations</h3>
+          <p class="text-slate-600">The free WordPress.com hosting restricts what you can do. Slow loading, limited customization, and an unprofessional look.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Social Proof</h3>
+          <p class="text-slate-600">No reviews, testimonials, or success stories visible. For a $12k+ purchase, people need reassurance before committing.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">Manual Everything</h3>
+          <p class="text-slate-600">Scheduling, follow-ups, reminders — all done manually. Time you could spend instructing is lost to admin work.</p>
+        </div>
+      </div>
+      
+      <div class="mt-12 bg-slate-100 rounded-xl p-8 text-center">
+        <p class="text-2xl font-semibold text-slate-900 mb-2">
+          Even <span class="text-red-500">1 lost student per month</span> = $144,000/year in missed revenue
+        </p>
+        <p class="text-slate-600">Flight training is a high-value service. Your website should work as hard as you do.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Solution Section -->
+  <section class="py-20 bg-slate-50" id="solutions">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-emerald-600 font-semibold mb-2 uppercase tracking-wide text-sm">The Solution</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">A Complete Digital Transformation</h2>
+        <p class="text-slate-600 mt-4 max-w-2xl mx-auto">Everything you need to capture more leads, convert more students, and grow your flight school.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">Modern Website Redesign</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Clean, professional, mobile-first design</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Fast loading (under 3 seconds)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Dedicated pages for each training program</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Professional hosting (no more WordPress.com limits)</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">Online Booking System</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Instant discovery flight scheduling</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Automated confirmation emails</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Calendar sync for instructors</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>SMS reminders to reduce no-shows</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">Lead Capture & Nurturing</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>"PPL Training Guide" lead magnet</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Automated email welcome sequence</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Discovery flight follow-up automation</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Re-engagement campaigns for cold leads</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">SEO & Local Search</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Google Business Profile optimization</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Local keyword targeting (Tampa, Wesley Chapel, etc.)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>SEO-optimized blog content</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Schema markup for flight schools</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Exchange Section -->
+  <section class="py-20 bg-gradient-to-br from-sky-950 via-slate-900 to-slate-800 text-white" id="exchange">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-sky-400 font-semibold mb-2 uppercase tracking-wide text-sm">The Offer</p>
+        <h2 class="text-3xl md:text-4xl font-bold">Zero Cash Investment Required</h2>
+        <p class="text-slate-400 mt-4 max-w-2xl mx-auto">I'm offering my professional services in exchange for a credit toward flight training. You invest nothing but training hours.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-6">
+          <p class="text-sky-400 font-semibold text-sm mb-2">Option A</p>
+          <p class="text-3xl font-bold mb-1">$4,000</p>
+          <p class="text-slate-400 text-sm mb-4">flight training credit</p>
+          <p class="text-slate-300 text-sm">Website Refresh Package</p>
+          <p class="text-emerald-400 text-sm mt-2">$6,000 value in services</p>
+        </div>
+        
+        <div class="bg-white/10 backdrop-blur border border-sky-500/50 rounded-xl p-6 ring-2 ring-sky-500/20">
+          <p class="text-sky-400 font-semibold text-sm mb-2">Option B</p>
+          <p class="text-3xl font-bold mb-1">$5,500</p>
+          <p class="text-slate-400 text-sm mb-4">flight training credit</p>
+          <p class="text-slate-300 text-sm">Full Digital Package</p>
+          <p class="text-emerald-400 text-sm mt-2">$8,000 value in services</p>
+        </div>
+        
+        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-6">
+          <p class="text-sky-400 font-semibold text-sm mb-2">Option C</p>
+          <p class="text-3xl font-bold mb-1">$8,000</p>
+          <p class="text-slate-400 text-sm mb-4">flight training credit</p>
+          <p class="text-slate-300 text-sm">Complete Partnership</p>
+          <p class="text-emerald-400 text-sm mt-2">$12,000+ value in services</p>
+        </div>
+      </div>
+      
+      <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-8 text-center">
+        <p class="text-2xl font-semibold mb-4">
+          <span class="text-emerald-400">6-12 additional students/year</span> = $72,000–$144,000 revenue
+        </p>
+        <p class="text-slate-400">Your investment: a fraction of one student's training cost. Your return: dozens more students.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-white" id="about">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-sky-600 font-semibold mb-2 uppercase tracking-wide text-sm">About Me</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Built Products Used by Millions</h2>
+          <p class="text-slate-600 mb-6 leading-relaxed">
+            I'm Ricardo, a full-stack developer and co-founder of WingAI. I've built digital products from concept to scale, 
+            and I bring that same level of expertise to every project.
+          </p>
+          <p class="text-slate-600 mb-8 leading-relaxed">
+            I'm pursuing my Private Pilot License and want to train with CFFT. This proposal lets us both win — 
+            you get a world-class digital presence, and I get to learn from experienced instructors.
+          </p>
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <p class="text-3xl font-bold text-slate-900">2M+</p>
+              <p class="text-slate-500 text-sm">App Downloads</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-slate-900">1.5B+</p>
+              <p class="text-slate-500 text-sm">UGC Views</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 rounded-2xl p-8">
+          <h3 class="font-semibold text-lg mb-4 text-slate-900">Technical Capabilities</h3>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Frontend: React, Next.js, TypeScript, Tailwind</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Backend: Node.js, Python, PostgreSQL</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Infrastructure: Vercel, AWS, Cloudflare</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Marketing: SEO, Email Automation, Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-slate-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Ready to Discuss?</h2>
+      <p class="text-slate-600 mb-8 text-lg">
+        Let's schedule a call to walk through this proposal and discuss what works best for CFFT.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="proposal.html" class="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-8 py-4 rounded-lg transition-colors">
+          View Full Proposal
+        </a>
+        <a href="mailto:ricardo_mejia1996@live.com" class="border-2 border-slate-300 hover:border-slate-400 text-slate-700 font-semibold px-8 py-4 rounded-lg transition-colors">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-8">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p>&copy; 2026 Ricardo. Proposal prepared for Central Florida Flight Training.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Proposal | Central Florida Flight Training</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    .prose h2 {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .prose h3 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .prose table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+    .prose th, .prose td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .prose th {
+      background: #f8fafc;
+      font-weight: 600;
+    }
+    .prose ul {
+      margin: 1rem 0;
+    }
+    .prose li {
+      margin: 0.5rem 0;
+    }
+    @media print {
+      .no-print { display: none; }
+      body { font-size: 11pt; }
+      .prose h2 { page-break-before: auto; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-50 no-print">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-slate-600 hover:text-slate-900 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+        </svg>
+        Back to Overview
+      </a>
+      <button onclick="window.print()" class="text-slate-600 hover:text-slate-900 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+        </svg>
+        Print / Save PDF
+      </button>
+    </div>
+  </nav>
+
+  <!-- Proposal Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <article class="bg-white rounded-2xl shadow-sm p-8 md:p-12 prose prose-slate max-w-none">
+      
+      <!-- Header -->
+      <div class="text-center pb-8 border-b-2 border-slate-200 mb-8">
+        <h1 class="text-4xl font-bold text-slate-900 mb-2">Business Proposal</h1>
+        <p class="text-xl text-slate-600 mb-6">Digital Services Exchange for Flight Training</p>
+        <div class="flex flex-wrap justify-center gap-8 text-sm text-slate-500">
+          <div><span class="font-medium text-slate-700">Prepared for:</span> Central Florida Flight Training</div>
+          <div><span class="font-medium text-slate-700">Prepared by:</span> Ricardo</div>
+          <div><span class="font-medium text-slate-700">Date:</span> February 2026</div>
+        </div>
+      </div>
+
+      <!-- Executive Summary -->
+      <h2 class="text-2xl font-bold text-slate-900">Executive Summary</h2>
+      <p>
+        I'm a full-stack developer and co-founder of WingAI, a mobile app with <strong>2 million downloads</strong> and 
+        <strong>1.5 billion user-generated content views</strong>. I'm pursuing my Private Pilot License and would like to 
+        propose an exchange: my professional digital services in return for a credit toward flight training at CFFT.
+      </p>
+      <p>
+        This proposal outlines specific improvements to your online presence that will generate measurable results—more leads, 
+        better conversions, and increased revenue—while requiring zero upfront investment from you.
+      </p>
+      <div class="bg-sky-50 border border-sky-200 rounded-xl p-6 my-6">
+        <p class="text-lg font-semibold text-sky-900 m-0">
+          <strong>The Exchange:</strong> $4,000–$8,000 in flight training credit in return for a complete digital 
+          transformation of your online presence.
+        </p>
+      </div>
+
+      <!-- Current Website Assessment -->
+      <h2 class="text-2xl font-bold text-slate-900">Current Website Assessment</h2>
+      <p>After reviewing centralfloridaft.com, I've identified several opportunities for improvement:</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Area</th>
+            <th>Current State</th>
+            <th>Impact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Hosting</strong></td>
+            <td>WordPress.com (limited)</td>
+            <td>Restricted customization, slower performance, less professional</td>
+          </tr>
+          <tr>
+            <td><strong>Booking</strong></td>
+            <td>Phone/email only</td>
+            <td>Friction = lost leads. Modern students expect instant scheduling</td>
+          </tr>
+          <tr>
+            <td><strong>Lead Capture</strong></td>
+            <td>None</td>
+            <td>Visitors leave without a way to follow up</td>
+          </tr>
+          <tr>
+            <td><strong>SEO</strong></td>
+            <td>Minimal optimization</td>
+            <td>Missing local search opportunities (Tampa, Wesley Chapel, etc.)</td>
+          </tr>
+          <tr>
+            <td><strong>Social Proof</strong></td>
+            <td>No reviews displayed</td>
+            <td>Trust signals missing, critical for high-ticket purchases</td>
+          </tr>
+          <tr>
+            <td><strong>Mobile Experience</strong></td>
+            <td>Basic</td>
+            <td>60%+ of traffic is mobile; needs optimization</td>
+          </tr>
+          <tr>
+            <td><strong>Automation</strong></td>
+            <td>Manual processes</td>
+            <td>Time spent on admin instead of instruction</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="text-xl font-semibold text-slate-900">The Opportunity</h3>
+      <p>
+        Flight training is a <strong>$10,000–$15,000+ purchase decision</strong>. Every potential student who visits your site 
+        and leaves without taking action is a significant missed opportunity. Even converting <strong>one additional student 
+        per month</strong> represents $120,000+ in annual revenue.
+      </p>
+
+      <!-- Proposed Services -->
+      <h2 class="text-2xl font-bold text-slate-900">Proposed Services</h2>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-6 my-6">
+        <h3 class="text-xl font-bold text-slate-900 mt-0 mb-4">Option A: Website Refresh</h3>
+        <p class="text-lg font-semibold text-emerald-600 mb-4">Value: $6,000</p>
+        
+        <p>Transform your online presence with a modern, conversion-focused website:</p>
+        
+        <p class="font-semibold mt-4 mb-2">Custom Website Design</p>
+        <ul class="list-disc pl-5">
+          <li>Clean, professional, mobile-responsive design</li>
+          <li>Fast loading (sub-3-second load times)</li>
+          <li>Professional hosting setup (no more WordPress.com limitations)</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Online Booking Integration</p>
+        <ul class="list-disc pl-5">
+          <li>Discovery flight scheduling (Calendly or custom solution)</li>
+          <li>Automated confirmation emails</li>
+          <li>Calendar sync for instructors</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Lead Capture System</p>
+        <ul class="list-disc pl-5">
+          <li>"Download our PPL Training Guide" lead magnet</li>
+          <li>Email collection with automated welcome sequence</li>
+          <li>Contact forms that actually convert</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Local SEO Foundation</p>
+        <ul class="list-disc pl-5">
+          <li>Google Business Profile optimization</li>
+          <li>Local keyword targeting (Tampa, Zephyrhills, Wesley Chapel, Lakeland, Plant City)</li>
+          <li>Schema markup for flight schools</li>
+          <li>Meta descriptions and title optimization</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Essential Pages</p>
+        <ul class="list-disc pl-5">
+          <li>Dedicated pages for each certificate (PPL, Instrument, Commercial, CFI)</li>
+          <li>Pricing transparency (builds trust)</li>
+          <li>About page with instructor credentials</li>
+          <li>FAQ section (reduces inquiry friction)</li>
+        </ul>
+      </div>
+
+      <div class="bg-sky-50 border border-sky-200 rounded-xl p-6 my-6">
+        <h3 class="text-xl font-bold text-slate-900 mt-0 mb-4">Option B: Full Digital Package</h3>
+        <p class="text-lg font-semibold text-emerald-600 mb-4">Value: $8,000</p>
+        
+        <p><strong>Everything in Option A, plus:</strong></p>
+        
+        <p class="font-semibold mt-4 mb-2">Email Automation Sequences</p>
+        <ul class="list-disc pl-5">
+          <li>Welcome series for new leads (5-email nurture sequence)</li>
+          <li>Discovery flight follow-up automation</li>
+          <li>Re-engagement campaigns for cold leads</li>
+          <li>Student milestone celebrations</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Review Generation System</p>
+        <ul class="list-disc pl-5">
+          <li>Automated review requests after checkrides</li>
+          <li>Google Reviews integration display</li>
+          <li>Testimonial collection workflow</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Content Marketing Foundation</p>
+        <ul class="list-disc pl-5">
+          <li>4 SEO-optimized blog posts:
+            <ul class="list-disc pl-5 mt-2">
+              <li>"How to Get Your Private Pilot License in Florida"</li>
+              <li>"Cost of Flight Training in Tampa Bay Area"</li>
+              <li>"What to Expect on Your First Discovery Flight"</li>
+              <li>"Zephyrhills Airport (KZPH): Your Gateway to Aviation"</li>
+            </ul>
+          </li>
+          <li>Content calendar for ongoing posts</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Analytics & Tracking</p>
+        <ul class="list-disc pl-5">
+          <li>Google Analytics 4 setup</li>
+          <li>Conversion tracking</li>
+          <li>Monthly performance dashboard</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Social Media Integration</p>
+        <ul class="list-disc pl-5">
+          <li>Instagram feed display</li>
+          <li>Social sharing buttons</li>
+          <li>Open Graph optimization</li>
+        </ul>
+      </div>
+
+      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 my-6">
+        <h3 class="text-xl font-bold text-slate-900 mt-0 mb-4">Option C: Complete Digital Partnership</h3>
+        <p class="text-lg font-semibold text-emerald-600 mb-4">Value: $12,000+</p>
+        
+        <p><strong>Everything in Option B, plus:</strong></p>
+        
+        <p class="font-semibold mt-4 mb-2">Student Portal (Custom Development)</p>
+        <ul class="list-disc pl-5">
+          <li>Login area for current students</li>
+          <li>Track flight hours and progress</li>
+          <li>View upcoming lessons</li>
+          <li>Access training materials</li>
+          <li>Invoice history</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Advanced Features</p>
+        <ul class="list-disc pl-5">
+          <li>Live KZPH weather widget (METAR/TAF display)</li>
+          <li>Aircraft fleet showcase with specs</li>
+          <li>Virtual facility tour integration</li>
+          <li>Instructor availability calendar</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">6-Month Support Package</p>
+        <ul class="list-disc pl-5">
+          <li>Ongoing maintenance and updates</li>
+          <li>Monthly SEO performance reports</li>
+          <li>Continuous optimization based on data</li>
+          <li>Priority support response</li>
+        </ul>
+        
+        <p class="font-semibold mt-4 mb-2">Referral Program Automation</p>
+        <ul class="list-disc pl-5">
+          <li>Student referral tracking</li>
+          <li>Automated reward notifications</li>
+          <li>Referral leaderboard</li>
+        </ul>
+      </div>
+
+      <!-- Additional Value-Add Ideas -->
+      <h2 class="text-2xl font-bold text-slate-900">Additional Value-Add Ideas</h2>
+      <p>Beyond the core packages, here are additional improvements that could benefit CFFT:</p>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Immediate Impact</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>SMS Lesson Reminders</strong> — Reduce no-shows with automated text reminders 24 hours before scheduled flights</li>
+        <li><strong>Weather-Based Notifications</strong> — Alert students when conditions are good for makeup flights</li>
+        <li><strong>Gift Certificate System</strong> — Discovery flights make great gifts; enable online purchasing</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Medium-Term Growth</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>YouTube Integration</strong> — Embed training videos, virtual cockpit tours</li>
+        <li><strong>Podcast/Blog Series</strong> — "Cleared for Takeoff" student success stories</li>
+        <li><strong>Partnership Page</strong> — Connect with local hotels, rental cars for out-of-area students</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Long-Term Differentiation</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Ground School Integration</strong> — Online prep materials, quiz system</li>
+        <li><strong>Progress Tracking App</strong> — Mobile companion for students</li>
+        <li><strong>Community Forum</strong> — Connect current and former students</li>
+      </ul>
+
+      <!-- Return on Investment -->
+      <h2 class="text-2xl font-bold text-slate-900">Return on Investment</h2>
+      <p>Let's look at the numbers:</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Conservative Estimate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Current monthly website visitors</td>
+            <td>~200-500 (estimated)</td>
+          </tr>
+          <tr>
+            <td>Current conversion rate</td>
+            <td>~1-2%</td>
+          </tr>
+          <tr>
+            <td>New leads per month</td>
+            <td>2-10</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>After Implementation:</strong></p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Projected Improvement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Website visitors (with SEO)</td>
+            <td>+50-100% increase</td>
+          </tr>
+          <tr>
+            <td>Conversion rate (with booking + lead capture)</td>
+            <td>3-5%</td>
+          </tr>
+          <tr>
+            <td>New qualified leads per month</td>
+            <td>10-25+</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Revenue Impact</h3>
+      <ul class="list-disc pl-5">
+        <li>Average PPL student value: <strong>$12,000</strong></li>
+        <li>Additional students converted per year (conservative): <strong>6-12</strong></li>
+        <li>Additional annual revenue: <strong>$72,000 – $144,000</strong></li>
+      </ul>
+      
+      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 my-6">
+        <p class="text-lg m-0">
+          <strong>Your investment:</strong> $4,000–$8,000 in flight training credit<br>
+          <strong>Potential return:</strong> 12x–48x ROI in year one alone
+        </p>
+      </div>
+
+      <!-- About Me -->
+      <h2 class="text-2xl font-bold text-slate-900">About Me</h2>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Professional Background</h3>
+      <p><strong>Co-Founder, WingAI</strong></p>
+      <ul class="list-disc pl-5">
+        <li>2,000,000+ app downloads</li>
+        <li>1,500,000,000+ user-generated content views</li>
+        <li>Full product development from concept to scale</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Technical Capabilities</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Frontend:</strong> React, Next.js, TypeScript, Tailwind CSS</li>
+        <li><strong>Backend:</strong> Node.js, Python, PostgreSQL, Supabase</li>
+        <li><strong>Infrastructure:</strong> Vercel, AWS, Cloudflare</li>
+        <li><strong>Marketing:</strong> SEO, email automation, analytics, conversion optimization</li>
+      </ul>
+
+      <!-- Proposed Exchange -->
+      <h2 class="text-2xl font-bold text-slate-900">Proposed Exchange</h2>
+      
+      <h3 class="text-lg font-semibold text-slate-900">What I'm Asking For</h3>
+      <p>A credit of <strong>$4,000–$8,000</strong> toward Private Pilot License training at CFFT, applied as:</p>
+      <ul class="list-disc pl-5">
+        <li>Hourly instruction rate discount, OR</li>
+        <li>Block time credit, OR</li>
+        <li>Percentage off total training package</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">What You're Getting</h3>
+      <p>Based on your preference:</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Package</th>
+            <th>My Services Value</th>
+            <th>Your Credit</th>
+            <th>Your Net Gain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Option A</td>
+            <td>$6,000</td>
+            <td>$4,000</td>
+            <td>$2,000+ in services</td>
+          </tr>
+          <tr>
+            <td>Option B</td>
+            <td>$8,000</td>
+            <td>$5,500</td>
+            <td>$2,500+ in services</td>
+          </tr>
+          <tr>
+            <td>Option C</td>
+            <td>$12,000+</td>
+            <td>$8,000</td>
+            <td>$4,000+ in services</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Plus the revenue from additional students these improvements will bring.</p>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Timeline</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Phase</th>
+            <th>Deliverable</th>
+            <th>Timeframe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Design mockups & approval</td>
+            <td>Week 1-2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Development & content</td>
+            <td>Week 3-4</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Testing & launch</td>
+            <td>Week 5</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>SEO & automation setup</td>
+            <td>Week 6</td>
+          </tr>
+          <tr>
+            <td>Ongoing</td>
+            <td>Support & optimization</td>
+            <td>6 months</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Why This Makes Sense -->
+      <h2 class="text-2xl font-bold text-slate-900">Why This Makes Sense for CFFT</h2>
+      <ol class="list-decimal pl-5">
+        <li><strong>Zero Cash Outlay</strong> — You're exchanging training time (which has marginal cost) for services that would cost $4,000–$8,000+ to hire out</li>
+        <li><strong>Proven Expertise</strong> — I've built products used by millions; your website will benefit from that experience</li>
+        <li><strong>Aligned Incentives</strong> — As your student, I want CFFT to succeed. I'll be invested in the results</li>
+        <li><strong>Low Risk</strong> — If you're not satisfied with the work, we can adjust the arrangement</li>
+        <li><strong>Immediate Impact</strong> — Modern booking and lead capture will start generating results within weeks of launch</li>
+      </ol>
+
+      <!-- Next Steps -->
+      <h2 class="text-2xl font-bold text-slate-900">Next Steps</h2>
+      <p>I'd love to discuss this proposal in person or over a call. Here's what I suggest:</p>
+      <ol class="list-decimal pl-5">
+        <li><strong>Schedule a Meeting</strong> — Let's walk through the proposal and your priorities</li>
+        <li><strong>Site Walkthrough</strong> — I'll show you examples and mockups of what's possible</li>
+        <li><strong>Agree on Scope</strong> — Decide which package makes sense</li>
+        <li><strong>Begin Discovery Flight</strong> — I'll book my first lesson while we finalize details</li>
+      </ol>
+      
+      <div class="bg-slate-100 rounded-xl p-6 my-6 text-center">
+        <h3 class="text-lg font-semibold text-slate-900 mt-0">Contact</h3>
+        <p class="mb-0">
+          <strong>Ricardo</strong><br>
+          Email: <a href="mailto:ricardo_mejia1996@live.com" class="text-sky-600">ricardo_mejia1996@live.com</a><br>
+          Phone: 941-536-6093
+        </p>
+      </div>
+
+      <!-- Appendix -->
+      <h2 class="text-2xl font-bold text-slate-900">Appendix: Competitive Landscape</h2>
+      <p>Flight schools with strong digital presence in the Tampa Bay area are capturing more market share. Here's what top-performing flight school websites include:</p>
+      <ul class="list-none pl-0">
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Online scheduling for discovery flights
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Transparent pricing information
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Student testimonials and success stories
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Active blog with SEO-optimized content
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Google Reviews integration (4.5+ stars displayed)
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Mobile-optimized experience
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Email nurture sequences
+        </li>
+        <li class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          Social proof (ratings, certifications, fleet photos)
+        </li>
+      </ul>
+      <p class="mt-6 text-lg">
+        CFFT has the experience, credentials, and reputation. Let's make sure your digital presence matches the quality of your instruction.
+      </p>
+
+      <!-- Closing -->
+      <div class="text-center mt-12 pt-8 border-t-2 border-slate-200">
+        <p class="text-lg text-slate-600 italic">
+          I look forward to discussing this opportunity and beginning my journey toward becoming a private pilot with Central Florida Flight Training.
+        </p>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-100 py-8 no-print">
+    <div class="max-w-4xl mx-auto px-6 text-center text-slate-500">
+      <p>&copy; 2026 Ricardo. Proposal prepared for Central Florida Flight Training.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
