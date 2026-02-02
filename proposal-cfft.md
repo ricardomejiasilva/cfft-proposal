@@ -13,7 +13,7 @@ I'm a full-stack developer and co-founder of WingAI, a mobile app with **2 milli
 
 This proposal outlines specific improvements to your online presence that will generate measurable results—more leads, better conversion, and increased revenue—while requiring zero upfront investment from you.
 
-**The Exchange:** $3,000–$6,000 in flight training credit in return for a complete digital transformation of your online presence.
+**The Exchange:** $30,000+ in professional digital services in return for my complete Private Pilot License training at CFFT.
 
 ---
 
@@ -39,44 +39,30 @@ Flight training is a **$10,000–$15,000+ purchase decision**. Every potential s
 
 ## Proposed Services
 
-### Option A: Website Refresh
-**Value: $4,000**
+### Complete Digital Partnership
+**Total Value: $30,000+**
 
-Transform your online presence with a modern, conversion-focused website:
+A comprehensive digital transformation for CFFT, including:
 
-- **Custom Website Design**
+- **Custom Website Design & Development**
   - Clean, professional, mobile-responsive design
   - Fast loading (sub-3-second load times)
   - Professional hosting setup (no more WordPress.com limitations)
-
-- **Online Booking Integration**
-  - Discovery flight scheduling (Calendly or custom solution)
-  - Automated confirmation emails
-  - Calendar sync for instructors
-
-- **Lead Capture System**
-  - "Download our PPL Training Guide" lead magnet
-  - Email collection with automated welcome sequence
-  - Contact forms that actually convert
-
-- **Local SEO Foundation**
-  - Google Business Profile optimization
-  - Local keyword targeting (Tampa, Zephyrhills, Wesley Chapel, Lakeland, Plant City)
-  - Schema markup for flight schools
-  - Meta descriptions and title optimization
-
-- **Essential Pages**
   - Dedicated pages for each certificate (PPL, Instrument, Commercial, CFI)
   - Pricing transparency (builds trust)
   - About page with instructor credentials
   - FAQ section (reduces inquiry friction)
 
----
+- **Online Booking Integration**
+  - Discovery flight scheduling (Calendly or custom solution)
+  - Automated confirmation emails
+  - Calendar sync for instructors
+  - SMS reminders to reduce no-shows
 
-### Option B: Full Digital Package
-**Value: $6,000**
-
-Everything in Option A, plus:
+- **Lead Capture System**
+  - "Download our PPL Training Guide" lead magnet
+  - Email collection with automated welcome sequence
+  - Contact forms that actually convert
 
 - **Email Automation Sequences**
   - Welcome series for new leads (5-email nurture sequence)
@@ -84,35 +70,22 @@ Everything in Option A, plus:
   - Re-engagement campaigns for cold leads
   - Student milestone celebrations
 
-- **Review Generation System**
-  - Automated review requests after checkrides
-  - Google Reviews integration display
-  - Testimonial collection workflow
-
-- **Content Marketing Foundation**
-  - 4 SEO-optimized blog posts:
+- **Local SEO & Content Marketing**
+  - Google Business Profile optimization
+  - Local keyword targeting (Tampa, Zephyrhills, Wesley Chapel, Lakeland, Plant City)
+  - Schema markup for flight schools
+  - Meta descriptions and title optimization
+  - 4+ SEO-optimized blog posts:
     - "How to Get Your Private Pilot License in Florida"
     - "Cost of Flight Training in Tampa Bay Area"
     - "What to Expect on Your First Discovery Flight"
     - "Zephyrhills Airport (KZPH): Your Gateway to Aviation"
   - Content calendar for ongoing posts
 
-- **Analytics & Tracking**
-  - Google Analytics 4 setup
-  - Conversion tracking
-  - Monthly performance dashboard
-
-- **Social Media Integration**
-  - Instagram feed display
-  - Social sharing buttons
-  - Open Graph optimization
-
----
-
-### Option C: Complete Digital Partnership
-**Value: $8,000+**
-
-Everything in Option B, plus:
+- **Review Generation System**
+  - Automated review requests after checkrides
+  - Google Reviews integration display
+  - Testimonial collection workflow
 
 - **Student Portal** (Custom Development)
   - Login area for current students
@@ -126,6 +99,11 @@ Everything in Option B, plus:
   - Aircraft fleet showcase with specs
   - Virtual facility tour integration
   - Instructor availability calendar
+
+- **Analytics & Tracking**
+  - Google Analytics 4 setup
+  - Conversion tracking
+  - Monthly performance dashboard
 
 - **6-Month Support Package**
   - Ongoing maintenance and updates
@@ -185,8 +163,9 @@ Let's look at the numbers:
 - Additional students converted per year (conservative): **6-12**
 - Additional annual revenue: **$72,000 – $144,000**
 
-**Your investment:** $3,000–$6,000 in flight training credit  
-**Potential return:** 12x–48x ROI in year one alone
+**Your investment:** One student's PPL training (~$12,000-15,000)  
+**What you receive:** $30,000+ in professional services  
+**Potential return:** 10x–20x ROI in year one alone
 
 ---
 
@@ -217,39 +196,27 @@ Let's look at the numbers:
 
 ### What I'm Asking For
 
-A credit of **$4,000–$8,000** toward Private Pilot License training at CFFT, applied as:
+My **complete Private Pilot License training** at CFFT, including:
 
-- Hourly instruction rate discount, OR
-- Block time credit, OR
-- Percentage off total training package
+- All required flight hours with instruction
+- Ground school / knowledge test preparation
+- Checkride preparation and sign-off
 
 ### What You're Getting
 
-Based on your preference:
+| The Exchange | Details |
+|--------------|---------|
+| **My Services Value** | $30,000+ in professional digital services |
+| **Your Cost** | ~$12,000-15,000 (PPL training, which has low marginal cost for you) |
+| **Your Net Gain** | $15,000-18,000+ in services PLUS ongoing revenue from new students |
 
-| Package | My Services Value | Your Credit | Your Net Gain |
-|---------|-------------------|-------------|---------------|
-| Option A | $4,000 | $3,000 | $1,000+ in services |
-| Option B | $6,000 | $4,500 | $1,500+ in services |
-| Option C | $8,000+ | $6,000 | $2,000+ in services |
-
-Plus the revenue from additional students these improvements will bring.
-
-### Timeline
-
-| Phase | Deliverable | Timeframe |
-|-------|-------------|-----------|
-| 1 | Design mockups & approval | Week 1-2 |
-| 2 | Development & content | Week 3-4 |
-| 3 | Testing & launch | Week 5 |
-| 4 | SEO & automation setup | Week 6 |
-| Ongoing | Support & optimization | 6 months |
+Plus the revenue from additional students these improvements will bring — conservatively $72,000-$144,000 per year.
 
 ---
 
 ## Why This Makes Sense for CFFT
 
-1. **Zero Cash Outlay** — You're exchanging training time (which has marginal cost) for services that would cost $4,000–$8,000+ to hire out
+1. **Zero Cash Outlay** — You're exchanging training time (which has marginal cost) for services that would cost $30,000+ to hire out
 
 2. **Proven Expertise** — I've built products used by millions; your website will benefit from that experience
 
@@ -267,7 +234,7 @@ I'd love to discuss this proposal in person or over a call. Here's what I sugges
 
 1. **Schedule a Meeting** — Let's walk through the proposal and your priorities
 2. **Site Walkthrough** — I'll show you examples and mockups of what's possible
-3. **Agree on Scope** — Decide which package makes sense
+3. **Agree on Terms** — Finalize the exchange details
 4. **Begin Discovery Flight** — I'll book my first lesson while we finalize details
 
 ### Contact
